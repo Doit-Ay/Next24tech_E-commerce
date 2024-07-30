@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - My E-commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">My Store</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Cart (0)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-details">
+            <div class="product-gallery">
+                <img id="main-image" src="https://rukminim2.flixcart.com/image/832/832/l3ys70w0/sunglass/c/x/0/-original-imagez7hr6dpzbtj.jpeg?q=70&crop=fals" alt="Product Image">
+                <div class="thumbnails">
+                    <img src="https://rukminim2.flixcart.com/image/832/832/l3ys70w0/sunglass/c/e/9/-original-imagez7hpwmfcznp.jpeg?q=70&crop=false" alt="Thumbnail 1" class="thumbnail" onclick="changeImage(this)">
+                    <img src="https://rukminim2.flixcart.com/image/832/832/l3ys70w0/sunglass/u/g/4/-original-imagez7hhrypbzbb.jpeg?q=70&crop=false" alt="Thumbnail 2" class="thumbnail" onclick="changeImage(this)">
+                    <img src="https://rukminim2.flixcart.com/image/832/832/l3ys70w0/sunglass/t/f/i/-original-imagez7hmc4ggayy.jpeg?q=70&crop=false" alt="Thumbnail 3" class="thumbnail" onclick="changeImage(this)">
+                </div>
+            </div>
+            <div class="details">
+                <h1>Product Name</h1>
+                <p class="price">$49.99</p>
+                <p class="description">This is a detailed description of the product, highlighting its features, specifications, and benefits. It provides all the necessary information that a potential buyer would want to know.</p>
+                <ul class="features">
+                    <li>Feature 1: Detailed explanation.</li>
+                    <li>Feature 2: Detailed explanation.</li>
+                    <li>Feature 3: Detailed explanation.</li>
+                </ul>
+                <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+            </div>
+        </section>
+        <section class="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review">
+                <p>★★★★★</p>
+                <p>Great product! The quality is amazing and the design is very trendy.</p>
+            </div>
+            <div class="review">
+                <p>★★★★☆</p>
+                <p>Good value for money. Comfortable and stylish.</p>
+            </div>
+            <!-- Additional Reviews -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Store. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Support</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
